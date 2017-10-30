@@ -1,8 +1,9 @@
-Requirements: Python 2.x, with bsddb and twisted packages
+## Requirements: 
+Python 2.x, with bsddb and twisted packages
 
-Usage: pywallet.py [options]
+## Usage: `pywallet.py [options]`
 
-Options:
+### Options:
   --version             show program's version number and exit
   -h, --help            show this help message and exit
   --dumpwallet          dump wallet in json format
@@ -31,18 +32,18 @@ Options:
 
 
 
-Dependencies:
+## Dependencies:
 
-Debian-based Linux:
- aptitude install build-essential python-dev python-twisted python-bsddb3
+### Debian-based Linux:
+ `aptitude install build-essential python-dev python-twisted python-bsddb3`
 
-Mac OS X:
+### Mac OS X:
  1. Install MacPorts from http://www.macports.org/
- 2. sudo port install python27 py27-twisted py27-pip py-bsddb python_select
- 3. sudo port select --set python python27
- 4. sudo easy_install ecdsa
+ 2. `sudo port install python27 py27-twisted py27-pip py-bsddb python_select`
+ 3. `sudo port select --set python python27`
+ 4. `sudo easy_install ecdsa`
 
-Windows: 
+### Windows: 
  1. Install Python 2.7
  2. Install Twisted 11.0.0 for Py2.7, then Zope.Interface (a .egg file) for Py2.7: http://twistedmatrix.com/trac/wiki/Downloads
 
@@ -54,4 +55,4 @@ Windows:
  3(64bit). http://pypi.python.org/pypi/setuptools#windows to download, then run ez_setup.py
 
  4. Go to C:\Python27\Scripts
- 5. Run easy_install.exe zope.interface-3.6.4-py2.7-win-amd64.egg
+ 5. Run `easy_install.exe zope.interface-3.6.4-py2.7-win-amd64.egg`
